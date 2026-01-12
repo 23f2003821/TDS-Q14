@@ -1,0 +1,11 @@
+name: Q24 GitHub Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2003821@ds.study.iitm.ac.in
+        run: echo "Q24 GitHub Action executed successfully"
